@@ -1,0 +1,37 @@
+Module 1(SDLC)
+_________________________________________________________________________________________________________
+1)What is software?What is software engineering?
+A) ->software is one type of the data thats collects from the computer and given the instruction the to 
+     computer that what to do and how to do and where.
+   ->software engineering is one type of the branch of the computer science that deals with the design, 
+     development, testing, and maintenance of software applications.
+   
+     Thus is called the software an software engineering.
+
+2)Explain types of the software?
+A) ->There are the three types of the software:-
+     (I)system software
+     (II)programming software
+     (III)application software
+
+   ->*System software:-System software is a one type of the software where it can manages the system resources
+   ->*programming software:-is set of the program which helps the software developers by assisting them in 
+      creating,debugging and maintenance other programs and applications is called programming software.
+   ->*application software:-t is a type of software application that helps in the automation of the task 
+      based on the Users Input. It can perform single or multiple tasks at the same period of time. 
+
+3)What is DFD?Create a DFD diagram on flipkart?
+A) ->DFD is the abbreviation for Data Flow Diagram. The flow of data of a system or a process is represented by DFD.
+     
+     Note:-The diagram is on another file 
+
+4)What is Flow chart? Create a flowchart to make addition of two numbers?
+A) ->Activity diagram is essentially an advanced version of flow chart that modeling the flow from one activity to
+     another activity.
+ 
+     Note:-The diagram is on another file 
+
+5)What is Use case Diagram? Create a use-case on bill payment on paytm?
+A) ->A UML use case diagram is the primary form of system/software requirements for a new software program underdeveloped.
+ 
+     Note:-The diagram is on another file
