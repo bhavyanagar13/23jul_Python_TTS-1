@@ -1,1 +1,15 @@
+#include <stdio.h>
+
+void main() {
+
+  float p, r, si;
+  int t;
+  printf("Enter the values of p, r and t\n");
+  scanf("%f %f %d", & p, & r, & t);
+  si = (p * r * t) / 100.0;
+  printf("Amount = Rs. %5.2f", p);
+  printf("Rate   = Rs. %5.2f\n", r);
+  printf("Time   = %d years\n", t);
+  printf("Simple interest  = %5.2f\n", si);
+}
 
