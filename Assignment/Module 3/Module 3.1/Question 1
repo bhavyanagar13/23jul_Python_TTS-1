@@ -1,1 +1,8 @@
-
+#include<stdio.h>  
+void main()  
+{ 
+     printf("Name : John");   
+     printf("BOD  : 13Jan");
+     printf("Age  : 21");
+     printf("Address : bajrangwadi road corner rajkot"); 
+}
