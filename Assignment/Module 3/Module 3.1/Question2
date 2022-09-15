@@ -1,1 +1,41 @@
+#include<stdio.h>
+int main()
+{
+   int a,b,ch;
+   int add,sub,mul,div,mod;
+   printf("Enter two number: ");
+   scanf("%d%d",&a,&b);
+   printf("Enter User Choice: ");
+   scanf("%d",&ch);
 
+   if(ch==1)
+   {
+		add=a+b;
+		printf("Addition: %d",add)
+	}
+    else if(ch==2)
+	{
+		sub=a-b;
+		printf("Subtraction: %d",sub)
+	}
+	 else if(ch==2)
+	{
+		mul=a*b;
+		printf("Multiplication: %d",mul)
+	}
+	 else if(ch==2)
+	{
+		div=a/b;
+		printf("Division: %d",div)
+	}
+	 else if(ch==2)
+	{
+		mod=a%b;
+		printf("Module: %d",mod)
+	}
+	 else
+	{
+		printf("Invalid Choice...!");
+	}
+	return 0;
+}
