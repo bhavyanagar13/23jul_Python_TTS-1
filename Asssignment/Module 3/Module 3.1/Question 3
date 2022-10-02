@@ -1,1 +1,9 @@
-
+#include<stdio.h>
+int main()
+{
+	printf("\nname- Bhavya Nagar");
+	printf("\ndate of birth- 13/01/2002");
+	printf("\nage- 21");
+	printf("\naddress- Rajkot");
+	return 0;
+}
