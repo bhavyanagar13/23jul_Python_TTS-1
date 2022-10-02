@@ -1,0 +1,6 @@
+union’ is used to define a union	‘struct’ is used to describe a structure
+Shared memory space	Members share memory space	Members share no memory space
+Retrieval and Accessibility of members	Only a single member can be retrieved and accessed at a time	Any member is capable of being retrieved any time
+Initialization	Only the first member is capable of being initialized	Several members can be initialized at any given time
+Size	Size of a union is equal to that of the largest member	The size of a structure is similar to the total of the dimensions of all members
+Alteration in value	Change in value of one will affect the value of other members	Alteration in value of any member fails to impact the value of others
