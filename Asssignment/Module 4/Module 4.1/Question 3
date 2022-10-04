@@ -1,1 +1,7 @@
-
+OOP stands for Object Oriented Programing.	POP stands for Procedural Oriented Programming.
+OOP follows bottom up approach.	POP follows top down approach.
+A program is divided to objects and their interactions.	A program is divided into funtions and they interacts.
+Inheritance is supported.	Inheritance is not supported.
+Access control is supported via access modifiers.	No access modifiers are supported.
+Encapsulation is used to hide data.	No data hiding present. Data is globally accessible.
+C++, Java	C, Pascal
