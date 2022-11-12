@@ -1,1 +1,44 @@
+#include<iostream>
+using namespace std;
+class person
+//access specifier
+{
+public:
+	//data members
+	string name;
+	int age;
+	//member function
+	person()
+	{
+		cout<<"Enter the name of the person:"<<endl;
+		cin>>name;
+		cout<<"Enter the age of the person:"<<endl;
+		cin>>age;
+	}
+};
+class percentage
+    {
+    	public:
+	float percent;
+	percentage()
+	{
+		cout<<"Enter the percentafe of the person:"<<endl;
+		cin>>percent;
+	}
+};
+class teacher:public person,public percentage{
+	public:
+		int salary;
+		string name;
+	teacher(){
+		cout<<"Enter the name of the teacher:"<<endl;
+		cin>>name;
+		cout<<"Enter the teacher salary:"<<endl;
+		cin>>salary;	
+		}
+};
+int main(){
+	teacher t;
 
+	return 0;
+}
