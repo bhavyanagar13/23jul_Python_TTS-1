@@ -1,1 +1,42 @@
-
+//constructor 
+#include<iostream>
+using namespace std;
+class A{
+     int a,b,c,ch;
+     public:
+         A()//constructor
+         {
+            cout<<"Enter any two number:";
+            cin>>a>>b;
+            cout<<"Enter choice for operation:";
+            cin>>ch;
+            if(ch==1)
+            {
+                c=a+b;
+                cout<<"Addition "<<c;
+            }
+            if(ch==2)
+            {
+                c=a-b;
+                cout<<"Subtract "<<c;
+            }
+            if(ch==3)
+            {
+                c=a*b;
+                cout<<"Multiplication "<<c;
+            }
+            if(ch==4)
+            {
+                c=a/b;
+                cout<<"Division "<<c;
+            }
+            if(ch>4)
+            {
+                cout<<"Invalid input";
+            }
+         }
+};
+int main()
+{
+    A obj;
+}
