@@ -1,1 +1,25 @@
-
+#include<iostream>
+using namespace std;
+template<typename t>
+void swap(t &x, t &y)
+{
+	t temp;
+	temp=a;
+	a=b;
+	b=temp;
+}
+int main(){
+	int x=10,y=87;
+	double a1=20.6,b1=10.3;
+	char q='a',f='b';
+	cout<<"Before swap:"<<x<<" "<<y<<endl;
+	cout<<"Before swap:"<<a1<<" "<<b1<<endl;
+	cout<<"Before swap:"<<q<<" "<<f<<endl;
+	swap1(a,b);
+	swap1(a1,b1);
+	swap1(q,f);
+	cout<<"After swap:"<<x<<" "<<y<<endl;
+	cout<<"After swap:"<<a1<<" "<<b1<<endl;
+	cout<<"After swap:"<<q<<" "<<f<<endl;
+	return 0;
+}
