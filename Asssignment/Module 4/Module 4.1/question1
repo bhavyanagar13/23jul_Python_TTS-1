@@ -1,0 +1,8 @@
+//first program of c
+
+#include<stdio.h>
+int main(){
+    printf("hello bhavya welcome to the c programming tutorials");
+    return 0;
+}
+
