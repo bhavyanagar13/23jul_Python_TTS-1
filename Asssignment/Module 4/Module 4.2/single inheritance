@@ -1,1 +1,52 @@
-
+//asssignment in c++
+#include<iostream>
+using namespace std;
+class cricketer
+{
+	protected:
+		
+	string name;
+	int totalrun[3],total,i,bestper;
+	float averagerun;
+	
+	public:
+		void input(){
+			totalrun;
+			averagerun;
+			bestper;
+		}
+};
+class batsman:public cricketer
+{
+	public:
+		void show(){
+			cout<<"Enter the name of batsman:"<<endl;
+			cin>>name;
+			   for(i=0;i<3;i++)
+			   {
+			   	cout<<"Enter the match"<<i+1<<"runs: ";
+			   	cin>>totalrun[i];
+			   	total+=totalrun[i];
+			   }
+			averagerun=total/3;
+			for(i=0;i<3;i++)
+			{
+				if(totalrun[i]>totalrun[1])
+				{
+					bestper==totalrun[i];
+				}
+			}
+		}
+		void data(){
+			cout<<"Enter the total runs:"<<totalrun<<endl;
+			cout<<"Enter the average runs:"<<averagerun<<endl;
+			cout<<"Enter the best perfomance:"<<bestper<<endl;
+		}
+};
+int main(){
+	batsman b;
+	b.input();
+	b.show();
+	b.data();
+	return 0;
+}
