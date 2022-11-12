@@ -1,1 +1,43 @@
+int add(int x,int y)
+{
+  return x+y;
+}
+int sub(int x,int y)
+{
+  return x-y;
+}
+int div(int x,int y)
+{
+  return x/y;
+}
+int mul(int x,int y)
+{
+  return x*y;
+}
 
+int main(){
+int num1,num2,result;
+char op;
+cout<<"Enter the two number:":
+cin>>num1>>num2;
+cout<<"Enter the operator:";
+cin>>op;
+if(op=='+')
+{
+	result=add(num1,num2);
+      cout<<result;
+}else if(op=='-')
+{
+	result=sub(num1,num2);
+      cout<<result;
+}else if(op='/')
+{
+	result=div(num1,num2);
+      cout<<result;
+}else if(op='*')
+{
+	result=mul(num1,num2);
+      cout<<result;
+}
+return 0;
+}
