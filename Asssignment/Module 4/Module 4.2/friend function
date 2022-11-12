@@ -1,1 +1,38 @@
-
+/*
+friend function:-which is not the member of the class instead of that
+it can access the private and protected member of class
+*/
+#include<iostream>
+using namespace std;
+class swap
+{
+	private:
+		int x,y;
+    public:
+    	void getdata()
+    	{
+    		cout<<"Enter the value of x and y:"<<endl;
+    		cin>>x>>y;
+    		cout<<"Before swapping x="<<x<<"y="<<y;
+		}
+		void display()
+		{
+			cout<<"After swapping x="<<x<<"y="<<y;
+		}
+		friend void swapno(swap &s);
+		};
+		void swapno(swap s);
+		{
+			int temp;
+			temp=s.x;
+			s.x=s.y;
+			s.y=temp;
+		}
+}
+int main(){
+	swap s;
+	s.getdata();
+	swapno(s);
+	s.display();
+	
+}
